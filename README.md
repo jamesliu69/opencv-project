@@ -1,25 +1,25 @@
 # opencv-project
 
-## 專案用途
+## 功能
 
-這是一個以 C#/.NET Visual Studio solution 為主的 repository。主要入口為 `PCBInspection.sln`。根目錄包含 `crop_icons.py`、`PCBInspection.Core`、`PCBInspection.Drivers`、`PCBInspection.sln`、`PCBInspection.Tests`、`PCBInspection.UI`、`ProjectFeatures.md`、`Resources`、`scripts`，可由這些檔案與目錄進一步了解實作內容。
-
-## 實際內容
-
-- 專案類型：C#/.NET Visual Studio solution
-- 主要入口：`PCBInspection.sln`
-
-根目錄主要項目：
-- `crop_icons.py`
-- `PCBInspection.Core`
-- `PCBInspection.Drivers`
+這個 repository 的主要功能範圍是 **工業自動化、設備控制或測試流程**。這個判斷是依目前 repository 的程式入口、專案檔與模組命名整理。
+主要執行／建置入口：
 - `PCBInspection.sln`
-- `PCBInspection.Tests`
-- `PCBInspection.UI`
-- `ProjectFeatures.md`
-- `Resources`
-- `scripts`
+- `crop_icons.py`
 
-## 開始使用
+## 用途
 
-以 Visual Studio 開啟上述 solution，實際啟動專案與相依設定請以 solution 內的 project files 為準。
+供設備整合、機台測試、控制流程或現場診斷使用。
+
+## 主要模組
+
+- `Resources`：repository 中的主要功能或資料模組。
+- `scripts`：repository 中的主要功能或資料模組。
+
+## 使用方式
+
+使用 Visual Studio 開啟 solution，依其中的 project files 建置與執行。
+
+## 注意事項
+
+硬體連線、外部服務與環境參數請依實際設定檔確認；未確認設備狀態前，不應直接執行輸出或運動操作。
