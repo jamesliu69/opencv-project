@@ -1,13 +1,27 @@
 # opencv-project
 
-此 repository 目前未設定 GitHub description；專案用途請以原始碼與專案檔案為準。
+## 專案用途
 
-## Repository information
+GitHub 未提供正式 description；以下內容依 repository 目前的根目錄檔案整理。
 
-- Owner: `jamesliu69`
-- Visibility: `Public`
-- Default branch: `26_0103`
+## 實際內容
 
-## Notes
+- 主要技術或專案類型：C#/.NET/Visual Studio project files
+- Visual Studio solution：`PCBInspection.sln`
 
-This README was added to provide basic repository information. Please refer to the source code, project files, and configuration in this repository for the current implementation details.
+根目錄主要項目：
+- `.github`
+- `.gitignore`
+- `crop_icons.py`
+- `PCBInspection.Core`
+- `PCBInspection.Drivers`
+- `PCBInspection.sln`
+- `PCBInspection.Tests`
+- `PCBInspection.UI`
+- `ProjectFeatures.md`
+- `Resources`
+- `scripts`
+
+## 開始使用
+
+以 Visual Studio 開啟上述 `.sln` 檔案，實際啟動專案與相依設定請以 solution 內的 project files 為準。
